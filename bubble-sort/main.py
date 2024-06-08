@@ -1,5 +1,14 @@
 def bubble_sort(nums):
-    pass
+    flag = True
+    end = len(nums)
+    while flag:
+        flag = False
+        for i in range(1, end):
+            if nums[i-1] > nums[i]:
+                nums[i-1], nums[i] = nums[i], nums[i-1]
+                flag = True
+        end -= 1
+    return nums
 
 
 # Procedure bubble_sort(nums):
