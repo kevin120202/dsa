@@ -147,3 +147,26 @@
 
 # lst = ["apple", "banana", "cherry"]
 # print(index_to_value_map(lst))
+
+# -------------------------
+
+def peak_index_in_mountain_list(lst):
+    # for i in range(1, len(lst)):
+    #     if lst[i-1] < lst[i] and lst[i] > lst[i+1]:
+    #         return i
+    low = 0
+    high = len(lst) - 1
+    while low < high:
+        mid = (low + high) // 2
+        if lst[mid] > lst[mid-1] and lst[mid] > lst[mid+1]:
+            return mid
+        elif lst[mid] < lst[mid+1]:
+            low = mid+1
+        elif lst[mid] > lst[mid+1]:
+            high = mid-1
+
+
+mountain_lst = [0, 3, 8, 0]
+mountain_lst = [0, 2, 1, 2, 1]
+peak = peak_index_in_mountain_list(mountain_lst)
+print(peak)
