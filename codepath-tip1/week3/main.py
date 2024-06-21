@@ -9,6 +9,7 @@
 
 # def swap_ends(my_str):
 #     my_str_list = list(my_str)
+#     print(my_str_list)
 #     my_str_list[0], my_str_list[len(
 #         my_str_list) - 1] = my_str_list[len(my_str_list) - 1], my_str_list[0]
 #     return "".join(my_str_list)
