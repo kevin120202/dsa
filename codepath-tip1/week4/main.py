@@ -79,16 +79,48 @@
 
 # ---------------------------------------
 
-def removeElement(nums, val):
-    pass
+# def removeElement(nums, val):
+#     slow = 0
+#     fast = 0
+#     while fast < len(nums):
+#         if nums[fast] != val:
+#             nums[slow] = nums[fast]
+#             slow += 1
+#         fast += 1
+#     return slow
 
-    for num in nums:
-        if num == val:
-            nums.pop(num)
-    return len(nums)
+
+# nums = [5, 4, 4, 3, 4, 1]
+# nums_len = removeElement(nums, 4)
+# print(nums)  # same list
+# print(nums_len)
+
+# ---------------------------------------
+
+def is_long_pressed(name, typed):
+    i = 0
+    j = 0
+    while j < len(typed):
+        if name[i] == typed[i]:
+            i += 1
+            j += 1
+        elif name[i-1] == typed[j]:
+            j += 1
+        else:
+            return False
+    if i != len(name):
+        return False
+    return True
 
 
-nums = [5, 4, 4, 3, 4, 1]
-nums_len = removeElement(nums, 4)
-print(nums)  # same list
-print(nums_len)
+name = "alex"
+typed = "aaleex"
+print(is_long_pressed(name, typed))
+
+name2 = "saeed"
+typed2 = "ssaaedd"
+print(is_long_pressed(name2, typed2))
+
+name3 = "courtney"
+typed3 = "courtney"
+print(is_long_pressed(name3, typed3))
