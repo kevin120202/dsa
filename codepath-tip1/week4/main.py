@@ -97,30 +97,98 @@
 
 # ---------------------------------------
 
-def is_long_pressed(name, typed):
-    i = 0
-    j = 0
-    while j < len(typed):
-        if name[i] == typed[i]:
-            i += 1
-            j += 1
-        elif name[i-1] == typed[j]:
-            j += 1
-        else:
-            return False
-    if i != len(name):
-        return False
-    return True
+# def is_long_pressed(name, typed):
+#     i = 0
+#     j = 0
+#     while j < len(typed):
+#         if name[i] == typed[i]:
+#             i += 1
+#             j += 1
+#         elif name[i-1] == typed[j]:
+#             j += 1
+#         else:
+#             return False
+#     if i != len(name):
+#         return False
+#     return True
 
 
-name = "alex"
-typed = "aaleex"
-print(is_long_pressed(name, typed))
+# name = "alex"
+# typed = "aaleex"
+# print(is_long_pressed(name, typed))
 
-name2 = "saeed"
-typed2 = "ssaaedd"
-print(is_long_pressed(name2, typed2))
+# name2 = "saeed"
+# typed2 = "ssaaedd"
+# print(is_long_pressed(name2, typed2))
 
-name3 = "courtney"
-typed3 = "courtney"
-print(is_long_pressed(name3, typed3))
+# name3 = "courtney"
+# typed3 = "courtney"
+# print(is_long_pressed(name3, typed3))
+
+# ---------------------------------------
+
+# def find_content_children(greed_ls, cookie_size_ls):
+#     content_children = 0
+#     greed_ls_ptr = 0
+#     cookie_size_ls_ptr = 0
+
+#     while greed_ls_ptr < len(greed_ls) and cookie_size_ls_ptr < len(cookie_size_ls):
+#         if greed_ls[greed_ls_ptr] <= cookie_size_ls[cookie_size_ls_ptr]:
+#             content_children += 1
+#         cookie_size_ls_ptr += 1
+#         greed_ls_ptr += 1
+
+#     return content_children
+
+
+# # g = [1, 2, 3]
+# # s = [1, 1, 3]
+# g = [1, 1]
+# s = [2, 2, 2]
+# print(find_content_children(g, s))
+
+# ---------------------------------------
+
+# def valid_palindrome(s):
+#     start = 0
+#     end = len(s) - 1
+#     while start < end:
+#         if s[start] == s[end]:
+#             start += 1
+#             end -= 1
+#         else:
+#             return is_substring_palindrome(s[start+1:end+1]) or is_substring_palindrome(s[start:end])
+
+#     return True
+
+
+# def is_substring_palindrome(substring):
+#     start = 0
+#     end = len(substring) - 1
+#     while start < end:
+#         if substring[start] != substring[end]:
+#             return False
+#         start += 1
+#         end -= 1
+#     return True
+
+
+# s = "aba"
+# s2 = "abca"
+# s3 = "abc"
+
+# print(valid_palindrome(s))
+# print(valid_palindrome(s2))
+# print(valid_palindrome(s3))
+
+# ---------------------------------------
+
+def find_largest_k(nums):
+    pass
+
+
+# nums = [-1,2,-3,3,-1]
+# print(find_largest_k(nums))
+
+# nums2 = [-10,2,7,-3]
+# print(find_largest_k(nums2))
