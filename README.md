@@ -1,4 +1,4 @@
-# Fun stuff
+# dsa
 
 ## Blind 75 Progress
 
@@ -44,8 +44,8 @@
 - [X] Subtree of Another Tree
 - [X] Lowest Common Ancestor of a Binary Search Tree
 - [X] Binary Tree Level Order Traversal
-- [ ] Validate Binary Search Tree
-- [ ] Kth Smallest Element In a BST
+- [X] Validate Binary Search Tree
+- [X] Kth Smallest Element In a BST
 - [ ] Construct Binary Tree From Preorder And Inorder Traversal
 - [ ] Binary Tree Maximum Path Sum
 - [ ] Serialize And Deserialize Binary Tree
@@ -111,4 +111,3 @@
 - [ ] Reverse Bits
 - [ ] Missing Number
 - [ ] Sum of Two Integers
-
