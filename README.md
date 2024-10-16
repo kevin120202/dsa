@@ -3,66 +3,77 @@
 ## Blind 75 Progress
 
 ## Arrays & Strings
-- [X] Contains Duplicate
-- [X] Valid Anagram
-- [X] Two Sum
-- [X] Group Anagrams
-- [X] Top K Frequent Elements
-- [X] Product of Array Except Self
-- [X] Longest Consecutive Sequence
+
+- [x] Contains Duplicate
+- [x] Valid Anagram
+- [x] Two Sum
+- [x] Group Anagrams
+- [x] Top K Frequent Elements
+- [x] Product of Array Except Self
+- [x] Longest Consecutive Sequence
 
 ## Two Pointers
-- [X] Valid Palindrome
-- [X] 3Sum
-- [X] Container With Most Water
+
+- [x] Valid Palindrome
+- [x] 3Sum
+- [x] Container With Most Water
 
 ## Sliding Window
-- [X] Best Time to Buy And Sell Stock
-- [X] Longest Substring Without Repeating Characters
-- [X] Longest Repeating Character Replacement
-- [X] Minimum Window Substring
+
+- [x] Best Time to Buy And Sell Stock
+- [x] Longest Substring Without Repeating Characters
+- [x] Longest Repeating Character Replacement
+- [x] Minimum Window Substring
 
 ## Stacks
-- [X] Valid Parentheses
+
+- [x] Valid Parentheses
 
 ## Binary Search
-- [X] Find Minimum In Rotated Sorted Array
-- [X] Search In Rotated Sorted Array
+
+- [x] Find Minimum In Rotated Sorted Array
+- [x] Search In Rotated Sorted Array
 
 ## Linked Lists
-- [X] Reverse Linked List
-- [X] Merge Two Sorted Lists
-- [X] Reorder List
-- [X] Remove Nth Node From End of List
-- [X] Linked List Cycle
-- [X] Merge K Sorted Lists
+
+- [x] Reverse Linked List
+- [x] Merge Two Sorted Lists
+- [x] Reorder List
+- [x] Remove Nth Node From End of List
+- [x] Linked List Cycle
+- [x] Merge K Sorted Lists
 
 ## Trees
-- [X] Invert Binary Tree
-- [X] Maximum Depth of Binary Tree
-- [X] Same Tree
-- [X] Subtree of Another Tree
-- [X] Lowest Common Ancestor of a Binary Search Tree
-- [X] Binary Tree Level Order Traversal
-- [X] Validate Binary Search Tree
-- [X] Kth Smallest Element In a BST
-- [ ] Construct Binary Tree From Preorder And Inorder Traversal
+
+- [x] Invert Binary Tree
+- [x] Maximum Depth of Binary Tree
+- [x] Same Tree
+- [x] Subtree of Another Tree
+- [x] Lowest Common Ancestor of a Binary Search Tree
+- [x] Binary Tree Level Order Traversal
+- [x] Validate Binary Search Tree
+- [x] Kth Smallest Element In a BST
+- [x] Construct Binary Tree From Preorder And Inorder Traversal
 - [ ] Binary Tree Maximum Path Sum
 - [ ] Serialize And Deserialize Binary Tree
 
 ## Heap / Priority Queue
+
 - [ ] Find Median From Data Stream
 
 ## Backtracking
+
 - [ ] Combination Sum
 - [ ] Word Search
 
 ## Tries
+
 - [ ] Implement Trie Prefix Tree
 - [ ] Design Add And Search Words Data Structure
 - [ ] Word Search II
 
 ## Graphs
+
 - [ ] Number of Islands
 - [ ] Clone Graph
 - [ ] Pacific Atlantic Water Flow
@@ -71,9 +82,11 @@
 - [ ] Number of Connected Components In An Undirected Graph
 
 ## Advanced Graphs
+
 - [ ] Alien Dictionary
 
 ## 1-D Dynamic Programming
+
 - [ ] Climbing Stairs
 - [ ] House Robber
 - [ ] House Robber II
@@ -86,26 +99,31 @@
 - [ ] Longest Increasing Subsequence
 
 ## 2-D Dynamic Programming
+
 - [ ] Unique Paths
 - [ ] Longest Common Subsequence
 
 ## Greedy
+
 - [ ] Maximum Subarray
 - [ ] Jump Game
 
 ## Intervals
+
 - [ ] Insert Interval
-- [ ] Merge Intervals
+- [x] Merge Intervals
 - [ ] Non Overlapping Intervals
 - [ ] Meeting Rooms
 - [ ] Meeting Rooms II
 
 ## Math & Geometry
+
 - [ ] Rotate Image
 - [ ] Spiral Matrix
 - [ ] Set Matrix Zeroes
 
 ## Bit Manipulation
+
 - [ ] Number of 1 Bits
 - [ ] Counting Bits
 - [ ] Reverse Bits
