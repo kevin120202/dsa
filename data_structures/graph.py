@@ -40,3 +40,28 @@ class Graph:
             self.adj_list[vert].remove(vertex)
         del self.adj_list[vertex]
         return True
+
+def main():
+    # Create a new graph
+    graph = Graph()
+
+    # Add vertices
+    graph.add_vertex('A')
+    graph.add_vertex('B')
+    graph.add_vertex('C')
+    graph.add_vertex('D')
+    graph.add_vertex('E')
+
+    # Add edges
+    graph.add_edge('A', 'B')
+    graph.add_edge('A', 'C')
+    graph.add_edge('B', 'D')
+    graph.add_edge('C', 'E')
+    graph.add_edge('D', 'E')
+
+    # Print the graph
+    print("Graph adjacency list:")
+    graph.print_graph()
+
+if __name__ == "__main__":
+    main()
